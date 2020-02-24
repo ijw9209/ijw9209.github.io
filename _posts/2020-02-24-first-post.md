@@ -6,7 +6,7 @@ categories:
   - Blog
 tags:
   - Blog
-last_modified_at: 2020-02-25T00:51:00-05:00
+last_modified_at: 2020-02-24T08:06:00-05:00
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
