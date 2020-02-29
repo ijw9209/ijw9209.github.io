@@ -3,7 +3,7 @@ main:
   # - title: "블로그 방문하기"
   #   url: https://ijw9209.github.io/
   - title: "JavaScript"
-    url: /categories/JavaScript/  
+    url: /categories/js/
   - title: "Categories"
     url: /categories/
   - title: "Posts"
