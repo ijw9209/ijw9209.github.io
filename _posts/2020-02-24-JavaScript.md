@@ -10,4 +10,4 @@ last_modified_at: 2020-02-24T08:06:00-05:00
 ---
 
 
-JavaScript
+JavaScript 공부
