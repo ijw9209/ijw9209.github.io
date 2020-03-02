@@ -6,8 +6,8 @@ main:
     url: /categories/js/
   - title: "Categories"
     url: /categories/
-  - title: "Posts"
-    url: /year-archive/    
+  - title: "Vue"
+    url: /categories/Vue 
   # - title: "About"
   #   url: /about/
  
