@@ -7,7 +7,9 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Vue"
-    url: /categories/Vue 
+    url: /categories/Vue
+  - title: "etc"
+    url: /categories/etc
   # - title: "About"
   #   url: /about/
  
