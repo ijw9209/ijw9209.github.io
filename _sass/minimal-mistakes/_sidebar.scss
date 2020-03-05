@@ -127,7 +127,8 @@
   }
 
   img {
-    max-width: 230px;
+    width: 150px;
+    max-width: 200px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -139,8 +140,8 @@
 
 .author__content {
   display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
+  vertical-align: middle;
+  padding-left: 25px;
   padding-right: 25px;
   line-height: 1;
 
