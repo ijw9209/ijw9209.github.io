@@ -30,12 +30,12 @@ h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: 1.544em;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: 1.09em;
 }
 
 h4 {
@@ -132,6 +132,7 @@ a {
 
   &:visited {
     color: $link-color-visited;
+    text-decoration: none !important;
   }
 
   &:hover {
