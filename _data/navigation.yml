@@ -10,6 +10,8 @@ main:
     url: /categories/Vue
   - title: "etc"
     url: /categories/etc
+  - title : "React"
+    url: /categories/React/  
   # - title: "About"
   #   url: /about/
  
