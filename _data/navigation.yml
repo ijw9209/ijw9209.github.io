@@ -8,10 +8,10 @@ main:
     url: /categories/
   - title: "Vue"
     url: /categories/Vue
+  - title : "React"
+    url: /categories/React  
   - title: "etc"
     url: /categories/etc
-  - title : "React"
-    url: /categories/React/  
   # - title: "About"
   #   url: /about/
  
