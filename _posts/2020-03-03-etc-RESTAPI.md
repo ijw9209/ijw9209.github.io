@@ -82,14 +82,16 @@ http://foo.com/world.png
 
 ## 5. 자원에 대한 행위는 HTTP Method로 표현한다
 
-아래가 대표적으로 사용하는 4가지 Method이다.
-|HTTP Method|역할|
+아래가 대표적으로 사용하는 4가지 Method이다. <br>
+
+  
+|HTTP Method|역할|  
 |-----|----------|
 |GET|GET을 통해 해당 리소스를 조회합니다|
 |POST|POST를 통해 해당 URL를 요청하면 리소스를 생성합니다.|
 |PUT|PUT을 통해 해당 리소스를 수정합니다.|
 |DELETE|DELETE를 통해 해당 리소스를 삭제합니다.|
-
+  
 
 예를 들어 글을 수정하기 위해선 아래와 같이 할 수 있다.
 
