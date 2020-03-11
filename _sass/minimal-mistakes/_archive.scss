@@ -45,6 +45,13 @@
 .archive__item-title {
   text-decoration: none !important;
 }
+
+.archive__item-title a{
+  color: #7c64b5 !important;
+}
+.archive__item-title a:visited{
+  color: #a58eaf !important;
+}
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
