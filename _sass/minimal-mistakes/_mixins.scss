@@ -97,3 +97,8 @@
   background-color: #e9d2ecba;
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }
+
+.btn--inverse {
+  background-color: #ebe3ecba !important; 
+}
+
