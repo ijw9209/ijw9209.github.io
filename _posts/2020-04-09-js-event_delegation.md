@@ -1,6 +1,6 @@
 ---
 title: "JS 이벤트 위임"
-excerpt: "이벤트 위임 & 버블링과 캡쳐링"
+excerpt: "JS 이벤트 위임"
 toc: true
 toc_sticky: true
 
