@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 같은숫자는 싫어!"
+title: "[JS] 프로그래머스 - 같은숫자는 싫어!"
 excerpt: "TDD를 사용한 알고리즘풀기"
 toc: true
 toc_sticky: true

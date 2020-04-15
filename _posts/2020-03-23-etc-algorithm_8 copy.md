@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 이상한 문자 만들기"
+title: "[JS] 프로그래머스 - 이상한 문자 만들기"
 excerpt: "TDD를 사용한 알고리즘풀기"
 toc: true
 toc_sticky: true

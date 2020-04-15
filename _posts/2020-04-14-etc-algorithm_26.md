@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - x만큼 간격이 있는 n개의 숫자"
+title: "[JS] 프로그래머스 - x만큼 간격이 있는 n개의 숫자"
 excerpt: "TDD를 사용한 알고리즘풀기"
 toc: true
 toc_sticky: true

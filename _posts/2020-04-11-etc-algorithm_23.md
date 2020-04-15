@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 모든 레코드 조회하기"
+title: "[DB] 프로그래머스 - 모든 레코드 조회하기"
 excerpt: "DataBase 연습"
 toc: true
 toc_sticky: true

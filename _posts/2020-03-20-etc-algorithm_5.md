@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 문자열 내 p와 y찾기"
+title: "[JS] 프로그래머스 - 문자열 내 p와 y찾기"
 excerpt: "TDD를 사용한 알고리즘풀기"
 toc: true
 toc_sticky: true

@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 완주하지 못한 선수"
+title: "[JS] 프로그래머스 - 완주하지 못한 선수"
 excerpt: "TDD를 사용한 알고리즘풀기"
 toc: true
 toc_sticky: true

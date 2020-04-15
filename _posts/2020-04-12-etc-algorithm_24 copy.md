@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 - 최댓값 구하기"
+title: "[DB] 프로그래머스 - 최댓값 구하기"
 excerpt: "DataBase 연습"
 toc: true
 toc_sticky: true
