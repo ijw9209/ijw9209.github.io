@@ -4,12 +4,12 @@ main:
   #   url: https://ijw9209.github.io/
   - title: "JavaScript"
     url: /categories/js/
-  - title: "Categories"
-    url: /categories/
-  - title: "Vue"
-    url: /categories/Vue
   - title : "React"
     url: /categories/React  
+  - title: "BackEnd"
+    url: /categories/BackEnd
+  - title: "Categories"
+    url: /categories/
   - title: "etc"
     url: /categories/etc
   # - title: "About"
