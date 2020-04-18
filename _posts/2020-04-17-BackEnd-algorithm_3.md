@@ -41,7 +41,6 @@ class Solution {
 
 ```
 
-
 ## 다른 사람의 풀이
 
 ```java
