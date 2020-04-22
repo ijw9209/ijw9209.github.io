@@ -6,8 +6,10 @@ toc_sticky: true
 
 categories:
   - BackEnd
+  - Boostcurse
 tags:
   - BackEnd
+  - Boostcurse
 last_modified_at: 2020-04-20T08:06:00-05:00
 ---
 
