@@ -35,21 +35,44 @@ class Solution {
       long answer = 0;
       int len = Long.toString(n).split("").length;
       
-      String[] array = new String[len];
-      array = Long.toString(n).split("");
+      String[] arr = new String[len];
+      arr = Long.toString(n).split("");
       
-      String tmp = "";
+      String str = "";
       
-      Arrays.sort(array , Collections.reverseOrder());
+      Arrays.sort(arr , Collections.reverseOrder());
       
       for(int i = 0; i < len; i++){
-          tmp += (long)Integer.parseInt(array[i]);
+          str += (long)Integer.parseInt(arr[i]);
       }
       
-      answer = Long.parseLong(tmp);
+      answer = Long.parseLong(str);
       return answer;
   }
 }
+
+```
+
+
+## 다른사람의 풀이
+
+```java
+
+public class ReverseInt {
+    String res = "";
+    public int reverseInt(int n){
+        res = "";
+        Integer.toString(n).chars().sorted().forEach(c -> res = Character.valueOf((char)c) + res);
+        return Integer.parseInt(res);
+    }
+
+    // 아래는 테스트로 출력해 보기 위한 코드입니다.
+    public static void  main(String[] args){
+        ReverseInt ri = new ReverseInt();
+        System.out.println(ri.reverseInt(118372));
+    }
+}
+
 
 ```
 
