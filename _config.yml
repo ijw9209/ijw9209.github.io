@@ -20,7 +20,7 @@ title: "어제보다 성장하는 나"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "이재웅"
-description: "취직하고 싶은 개발자의 블로그"
+description: "개발 공부 블로그"
 url: "https://ijw9209.github.io"
 baseurl: # 서브경로가 있는경우 기재
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name: "이재웅"
   avatar: "/assets/images/jae_woong1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "취직하고싶은 개발자"
+  bio: "개발 공부 블로그"
   location: "South Korea"
   email:
   links:
