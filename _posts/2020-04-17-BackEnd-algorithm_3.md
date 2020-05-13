@@ -1,5 +1,5 @@
 ---
-title: "[JAVA] 프로그래머스 - 평균구하기"
+title: "[JAVA, C] 프로그래머스 - 평균구하기"
 excerpt: "JAVA로 프로그래머스 알고리즘풀기"
 toc: true
 toc_sticky: true
@@ -12,7 +12,7 @@ tags:
   - etc
   - BackEnd
   - java
-last_modified_at: 2020-04-17T08:06:00-05:00
+last_modified_at: 2020-05-13T08:06:00-05:00
 ---
 
 ## 문제 
@@ -25,6 +25,9 @@ last_modified_at: 2020-04-17T08:06:00-05:00
 + arr의 원소는 -10,000 이상 10,000 이하인 정수입니다.
 
 ## 나의 풀이
+
+### JAVA
+
 
 ```java
 
@@ -41,7 +44,31 @@ class Solution {
 
 ```
 
+### C 
+
+```c
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+// arr_len은 배열 arr의 길이입니다.
+double solution(int arr[], size_t arr_len) {
+    double answer = 0;
+    int sum = 0;
+    for(int i = 0; i < arr_len; i++){
+        sum += arr[i];
+    }
+    answer = (double)sum / arr_len;
+    return answer;
+}
+
+```
+
 ## 다른 사람의 풀이
+
+
+### JAVA
 
 ```java
 import java.util.Arrays;
@@ -51,5 +78,31 @@ public class GetMean {
         return (int) Arrays.stream(array).average().orElse(0);
     }
 }
+
+```
+
+
+### C
+
+```c
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+// arr_len은 배열 arr의 길이입니다.
+double solution(int arr[], size_t arr_len) {
+    double answer = 0;
+    float sum = 0;
+
+    for(int i = 0; i < arr_len; ++i)
+    {
+        answer += arr[i];
+    }
+    answer /= arr_len;
+
+    return answer;
+}
+
 
 ```
