@@ -26,7 +26,7 @@ last_modified_at: 2020-05-13T08:06:00-05:00
 
 ## 나의 풀이
 
-### JAVA
+## JAVA
 
 
 ```java
@@ -43,8 +43,24 @@ class Solution {
 }
 
 ```
+## JAVA 다른사람의 풀이
 
-### C 
+
+
+### JAVA
+
+```java
+import java.util.Arrays;
+
+public class GetMean {
+    public int getMean(int[] array) {
+        return (int) Arrays.stream(array).average().orElse(0);
+    }
+}
+
+```
+
+## C 
 
 ```c
 
@@ -65,24 +81,9 @@ double solution(int arr[], size_t arr_len) {
 
 ```
 
-## 다른 사람의 풀이
 
 
-### JAVA
-
-```java
-import java.util.Arrays;
-
-public class GetMean {
-    public int getMean(int[] array) {
-        return (int) Arrays.stream(array).average().orElse(0);
-    }
-}
-
-```
-
-
-### C
+### C 다른사람의 풀이
 
 ```c
 
