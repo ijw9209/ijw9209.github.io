@@ -8,7 +8,7 @@ categories:
   - React
 tags:
   - React
-last_modified_at: 2020-06-29T08:06:00-05:00
+last_modified_at: 2020-07-04T08:06:00-05:00
 ---
 
 # React 기술 용어 정리
@@ -93,6 +93,65 @@ class Welcome extends React.Component {
 
 컴포넌트는 기능별로 나눌 수 있으며 다른 컴포넌트 안에서 사용할 수 있다. 컴포넌트는 다른 컴포넌트, 배열, 문자열 그리고 숫자를 반환할 수 있다. 화면을 구성하는 데 자주 사용되는 UI(Button, Panel, Avatar), 혹은 복잡한 UI(App, FeedStroy, Comment)컴포넌트는 재사용 가능한 컴포넌트가 될 수 있다. 컴포넌트의 이름은 항상 대문자로 시작해야한다. (`<Wrapper/>`)**(o)**  `<wrapper/>` **(x)** 컴포넌트 렌더링에 대한 자세한 내용은 [이 문서](https://ko.reactjs.org/docs/components-and-props.html#rendering-a-component)를 참고
 
+
+
+### props 
+
+`props`는 컴포넌트의 입력값이다. `props`는 부모 컴포넌트로 부터 자식 컴포넌트로 전달된 데이터이다.
+
+`props`는 읽기 전용이다. `props`를 어떤 방식으로든 수정해서는 안됨
+
+```js
+//틀린 예
+props.number = 42;
+
+```
+
+사용자의 입력 또는 네트워크 응답에 반응하여 어떤 값을 수정해야 한다면 `state`를 사용해야함
+
+### props.children
+
+모든 컴포넌트에서 `props,children`을 사용할 수 있다. `props.children`은 컴포넌트의 여는 태그와 닫는 태그 사이의 내용을 포함한다.
+
+예를 들면
+
+```js
+<Welcome>Hello world!</Welcome>
+
+```
+
+`Hello world!` 문자열은 `Welcome` 컴포넌트의 `props.children` 으로 사용할 수 있다.
+
+```js
+function Welcom(props) {
+    return <p>{props.children}</p>
+}
+
+```
+
+Class로 정의된 컴포넌트에서는 `this.props.children`을 사용되는
+
+
+```js
+class Welcome extends React.Compnent { 
+    render() {
+        return <p>{this.props.children}</p>;
+    }
+}
+
+```
+
+
+### state
+
+컴포넌트와 관련된 일부 데이터가 시간에 따라 변경될 경우 `state`가 필요함.  예를 들어 `Checkbox` 컴포넌트는 `isChecked` state가 필요할 수 있으며, `NewsFeed` 컴포넌트는 `fectedPosts`를 컴포넌트의 state를 통해 계속 주시하려고 할 수 있다.
+
+`state`와 `props`의 가장 중요한 차이점은 `props`는 부모 컴포넌트에게 전달받은것
+`state`는 컴포넌트에서 관리된다.
+컴포넌트는 `props` 를 변경할 수 없지만, `state`는 변경할 수 있다.
+
+데이터가 변경되는 각 특정한 부분에 대해, 해당 상태(state)를 소유하는 컴포넌트는 하나만 존재해야함. 
+서로 다른 두 컴포넌트의 상태를 동기화하려고 하면안된다. 대신 공통 상태를 공통 조상으로 끌어올리고 해당 데이터를 두 컴포넌트에 props로 전달해라.
 
 
 
