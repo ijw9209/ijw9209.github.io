@@ -1,6 +1,6 @@
 ---
-title: "테스트 및 배포 01"
-excerpt: "테스트 및 배포 01"
+title: "[정보처리 산업기사 필기] 프로그래밍 언어활용"
+excerpt: "[정보처리 산업기사 필기] 프로그래밍 언어활용"
 toc: true
 toc_sticky: true
 
