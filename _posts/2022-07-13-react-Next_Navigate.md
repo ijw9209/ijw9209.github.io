@@ -1,5 +1,5 @@
 ---
-title: "[Next] Next.js 공식문서 공부"
+title: "[Next] Next.js 공식문서 공부1 (navigate)"
 excerpt: "Next.js Navigate Between Pages"
 toc: true
 toc_sticky: true
